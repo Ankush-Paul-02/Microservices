@@ -28,7 +28,7 @@ public class HotelController {
     @GetMapping("/")
     public ResponseEntity<List<Hotel>> getAllHotels() {
         return ResponseEntity
-                .status(HttpStatus.CREATED)
+                .status(HttpStatus.OK)
                 .body(hotelService.getAllHotels());
     }
 
@@ -37,7 +37,7 @@ public class HotelController {
             @PathVariable String hotelId
     ) {
         return ResponseEntity
-                .status(HttpStatus.CREATED)
+                .status(HttpStatus.OK)
                 .body(hotelService.getHotel(hotelId));
     }
 }

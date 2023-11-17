@@ -1,6 +1,6 @@
 package com.zzz.hotel.service.exception;
 
-import com.devmare.user.service.payload.ApiResponse;
+import com.zzz.hotel.service.payload.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

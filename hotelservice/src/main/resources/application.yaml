@@ -2,6 +2,12 @@ server:
   port: 8082
 
 spring:
+  application:
+    name: HOTEL-SERVICE
+  cloud:
+    config:
+      import-check:
+        enabled: false
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: SYSTEM

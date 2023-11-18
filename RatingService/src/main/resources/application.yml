@@ -1,4 +1,10 @@
 spring:
+  application:
+    name: RATING-SERVICE
+  cloud:
+    config:
+      import-check:
+        enabled: false
   data:
     mongodb:
       uri: mongodb://localhost:27017

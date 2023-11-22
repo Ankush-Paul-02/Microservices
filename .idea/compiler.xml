@@ -11,6 +11,7 @@
         <module name="microservice (1) (com.zzz.hotel.service)" />
         <module name="microservice (2) (com.devmare.user.service)" />
         <module name="RatingService" />
+        <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
       <module name="RatingService" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
       <module name="microservice" options="-parameters" />

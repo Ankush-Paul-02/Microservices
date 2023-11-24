@@ -4,3 +4,10 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
+
+spring:
+  application:
+    name: CONFIG-DEFAULT
+  main:
+    banner-mode: off  
+    

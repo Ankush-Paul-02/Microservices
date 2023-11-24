@@ -24,3 +24,5 @@ spring:
 
   main:
     banner-mode: off
+  config:
+    import: configserver:http://localhost:8085

@@ -9,5 +9,7 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: Microservices
+  config:
+    import: configserver:http://localhost:8085
 server:
   port: 8083

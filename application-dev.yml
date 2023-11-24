@@ -1,1 +1,12 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
 
+spring:
+  application:
+    name: CONFIG-DEV
+  main:
+    banner-mode: off  

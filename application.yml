@@ -6,8 +6,6 @@ eureka:
     register-with-eureka: true
 
 spring:
-  application:
-    name: CONFIG-DEFAULT
   main:
     banner-mode: off  
     
